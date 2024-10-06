@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body
+{
+    font-family: 'Gill Sans';
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+h1
+{
+    font-size: 2rem;
+    display: flex;
+    color: #0ce70c;
+    margin-bottom: 20px;
+}
+.container
+{
+    background-color: palevioletred;
+    padding: 5%;
+    border-radius: 10%;
+    text-shadow: #0ce70c;
+    text-align: center;
+}
+.form
+{
+    margin-bottom: 10%;
+}
+.form-group
+{
+    font-style: italic;
+}
+label
+{
+    display:contents;
+    color: red; 
+}
+input
+{
+   font: size 2.2rem;
+}
+button
+{
+    font: 0.5em sans-serif;
+    width: 10vw;
+}
+button:hover 
+{
+    background-color: #218838;
+  }
+#result
+{
+    color: #333;
+}
